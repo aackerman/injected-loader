@@ -1,0 +1,24 @@
+{
+  "name": "injected-loader",
+  "version": "1.0.0",
+  "description": "Webpack dependency injection for testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aackerman/injected-loader.git"
+  },
+  "keywords": [
+    "webpack",
+    "dependency",
+    "injection"
+  ],
+  "author": "Aaron Ackerman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aackerman/injected-loader/issues"
+  },
+  "homepage": "https://github.com/aackerman/injected-loader"
+}
