@@ -1,0 +1,1 @@
+module.exports = { ham: 'delicious' };

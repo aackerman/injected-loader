@@ -20,5 +20,14 @@
   "bugs": {
     "url": "https://github.com/aackerman/injected-loader/issues"
   },
-  "homepage": "https://github.com/aackerman/injected-loader"
+  "homepage": "https://github.com/aackerman/injected-loader",
+  "devDependencies": {
+    "jasmine-core": "^2.2.0",
+    "karma": "^0.12.31",
+    "karma-cli": "0.0.4",
+    "karma-jasmine": "^0.3.5",
+    "karma-phantomjs2-launcher": "^0.1.5",
+    "karma-webpack": "^1.5.0",
+    "webpack": "^1.8.7"
+  }
 }
