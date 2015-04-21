@@ -1,4 +1,4 @@
-## injected-loader https://travis-ci.org/aackerman/injected-loader.svg?branch=master
+## injected-loader [![Build Status](https://travis-ci.org/aackerman/injected-loader.png?branch=master)](https://travis-ci.org/aackerman/injected-loader)
 
 Webpack dependency injection for testing
 
