@@ -4,7 +4,7 @@ Webpack dependency injection for testing
 
 ### Usage
 
-```
+```js
 import SquareInjector from './inject!./square';
 
 var MockDependency = {};
