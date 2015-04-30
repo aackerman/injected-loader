@@ -1,5 +1,9 @@
-describe('injected-loader', function(){
-  it('injects mock dependencies', function(){
+/* global expect */
+/* global spyOn */
+/* global it */
+/* global describe */
+describe('injected-loader', function () {
+  it('injects mock dependencies', function () {
     var TestModuleInjector = require('../index!./test_module');
     spyOn(console, 'log');
     var spam = { 'spam': 'gross' };
@@ -9,9 +13,9 @@ describe('injected-loader', function(){
     expect(console.log).toHaveBeenCalledWith(spam);
   });
 
-  it('throws an error when invalid dependencies are injected', function(){
+  it('throws an error when invalid dependencies are injected', function () {
     var TestModuleInjector = require('../index!./test_module');
-    expect(function(){
+    expect(function () {
       TestModuleInjector({
         './test_sham': { 'spam': 'gross' }
       })
