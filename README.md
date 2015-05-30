@@ -5,12 +5,12 @@ Webpack dependency injection for testing
 ### Usage
 
 ```js
-// MyGreatMethod.js
+// my_great_method.js
 export default function() { return false; };
 ```
 
 ```js
-// GreatMethodProxy.js
+// great_method_proxy.js
 import MyGreatMethod from './my_great_method.js';
 
 export default function(input) {
@@ -26,7 +26,7 @@ var MockGreatMethod = jasmine.createSpy().and.returnValue(true);
 
 // invoke the function with an object, keys must match
 // import/require statements, the key './my_great_method.js'
-// matches the import statement in GreatMethodProxy.js
+// matches the import statement in great_method_proxy.js
 let GreatMethodProxy = GreatMethodProxyInjector({
   './my_great_method.js': MockGreatMethod
 });
