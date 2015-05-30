@@ -24,8 +24,9 @@ export default function(input) {
 import GreatMethodProxyInjector from 'injected!./great_method_proxy';
 var MockGreatMethod = jasmine.createSpy().and.returnValue(true);
 
-// invoke the function with an object
-// keys must match require statements
+// invoke the function with an object keys must match
+// require statements the key './my_great_method.js'
+// matches the import statement in GreatMethodProxy.js
 let GreatMethodProxy = GreatMethodProxyInjector({
   './my_great_method.js': MockGreatMethod
 });
